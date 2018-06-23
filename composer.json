@@ -1,0 +1,20 @@
+{
+    "name": "seriald/basicrouter",
+    "description": "Basic router written in PHP.",
+    "licence": "MIT License",
+    "authors": [
+        {
+            "name": "Alexandre Peccard",
+            "email": "alexandre.peccard@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\" : "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6"
+    }
+}
